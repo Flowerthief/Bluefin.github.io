@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司名</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .hero {
+        background: url('img/true.jpg') center/cover no-repeat;
+        color: #fff;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 3em;
+    }
+
+    section {
+        padding: 80px 0;
+    }
+
+    section h2 {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .service {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .team-members {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .team-member {
+        text-align: center;
+    }
+
+    .team-member img {
+        width: 160px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .member{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body>
+<header>
+    <div class="container">
+        <h1>欢迎来到公司名</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#services">我们的服务</a></li>
+                <li><a href="#team">团队</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="home" class="hero">
+    <div class="container">
+        <h2>专注于提供优质服务</h2>
+        <p>公司名致力于投资发展商务娱乐等</p>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <h2>关于我们</h2>
+        <p>蓝鳍集团建设于2024年7月5号，成立于未知。集团包含商业 娱乐 政
+            以股份形式获得集团收益
+            以商讨论投票方式决定所办理业务以及新人入股
+            共创美好蓝鳍！ </p>
+    </div>
+</section>
+<section id="services">
+    <div class="container">
+        <h2>我们的服务</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>服务1</h3>
+                <p>商务业如商业健身房。</p>
+            </div>
+            <div class="service">
+                <h3>服务2</h3>
+                <p>娱乐业如酒吧,台球厅,网吧。</p>
+            </div>
+            <div class="service">
+                <h3>服务3</h3>
+                <p>投资业</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team">
+    <div class="container">
+        <h2>我们的团队</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <h3>姓名:<a href="Personal profile/LiuQingHui.html" class="member">刘青会</a></h3>
+                <img src="img/lqh.jpg" width="720" height="1550" alt="团队成员1">
+                <p>职位:蓝鳍创始人</p>
+            </div>
+            <div class="team-member">
+                <h3>姓名: <a href="Personal profile/YangPengFei.html" class="member">杨朋飞</a></h3>
+                <img src="img/yof.jpg" alt="团队成员2">
+                <p>职位:网络技术人员兼颜值担当</p>
+            </div>
+            <div class="team-member">
+                <h3>姓名:屈敬斌</h3>
+                <img src="team-member3.jpg" alt="团队成员3">
+                <p>职位:公关部门总经理</p>
+            </div>
+            <div class="team-member">
+                <h3>姓名: <a href="Personal profile/YangYiFan.html" class="member">杨毅凡</a></h3>
+                <img src="img/yyf.jpg" alt="团队成员3">
+                <p>职位:司法保卫处处长</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>联系我们</h2>
+        <p>有任何疑问或合作意向，请随时联系我们。</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="姓名" required>
+            <input type="email" name="email" placeholder="邮箱" required>
+            <textarea name="message" placeholder="你的消息" required></textarea>
+            <button type="submit">发送消息</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 公司名。保留所有权利。</p>
+    </div>
+</footer>
+</body>
+</html>
